@@ -1,23 +1,28 @@
-# Flutter app in Zapp!
+# Мобильное приложение "Общежития КубГАУ"
 
-A new Flutter project built with Zapp!
+**Лабораторная работа №4** по курсу "Разработка мобильных приложений"  
+*Кубанский государственный аграрный университет, 2024*
 
-----
+## О проекте
+Приложение демонстрирует современный подход к верстке интерфейсов во Flutter. Реализован экран с информацией об общежитии №20 КубГАУ с соблюдением всех требований лабораторной работы:
 
-> To learn how to use Zapp! check out the [documentation](https://docs.zapp.run)
+- Адаптивный интерфейс с прокруткой
+- Интерактивные элементы управления
+- Работа с внешними сервисами (карты, телефония)
+- Состояния виджетов
 
-----
+## Ключевые особенности
+| Функционал               | Технологии                          |
+|--------------------------|-------------------------------------|
+| Параллакс-эффект         | `SliverAppBar` + `FlexibleSpaceBar` |
+| Система "лайков"         | `StatefulWidget` + `setState`       |
+| Кнопки действий          | `url_launcher` + кастомные `Chip`   |
+| Адаптивная верстка       | `Wrap` + `MediaQuery`               |
 
-## Getting Started
+## Скриншот приложения
+![Главный экран](screenshots/lab4.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+## Установка
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/ваш-username/репозиторий.git
